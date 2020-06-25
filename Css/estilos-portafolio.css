@@ -16,8 +16,8 @@ h1{
 	/*text-transform: capitalize; esto es en mayusculas las primeas letras, "uppercase" coloca todo en mayusculas y "lowercase" todo en minuscula*/
 	/*text-decoration: underline; para el subrayado y otras para tachado*/
 	color: #FFFFFF;
-	margin: 0px;
-	padding: 20px;
+	margin-left: 14px;
+
 }
 
 h1 strong{
@@ -32,15 +32,15 @@ h1 strong{
 	justify-content: space-between;
 	height:70px;
 	align-items: center;
-	width: 1229px;
-    margin: 0 auto;
+	width: 1223px;
+    margin: 0 60px;
 	border-right: 3px solid #0B4C5F;
 	border-left: 3px solid #0B4C5F;
 	border-bottom: 3px groove #81F7F3;
 }
 
 .logo{
-	margin: 5px 0 0 0px;
+	margin: 5px 0 0 3px;
 }
 
 .menu{
@@ -179,11 +179,19 @@ h6{
 	letter-spacing: 0.5px;
 }
 
-.event-list{
+.event-list-cursos{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	background-color: #0B243B;
+}
+
+.event-list-certificados{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #0B243B;
+	padding-bottom: 100px;
 }
 
 .event-list-title{
@@ -221,7 +229,7 @@ h6{
 	padding: 20px;
 	text-align: center;
 	border-radius: 3px;
-    border: 2px solid #F2F2F2;
+    border: 1px solid #BDBDBD;
 }
 
 .event-description{
@@ -232,21 +240,26 @@ h6{
 
 
 .event-url{
-	border: 1px solid #0080FF;
-	border-radius: 5px;
-	padding: 5px 20px;
-	text-decoration: none;
+	border: 1px solid #0B4C5F;
+    border-radius: 5px;
+    padding: 5px 20px;
+    text-decoration: none;
+    background-color: #04B4AE;
+    color: #ffffff;
 }
 
 .event-link{
-	border: 1px solid #0080FF;
-	border-radius: 5px;
-	padding: 5px 20px;
-	text-decoration: none;
+	border: 1px solid #0B4C5F;
+    border-radius: 5px;
+    padding: 5px 20px;
+    text-decoration: none;
+    background-color: #04B4AE;
+    color: #ffffff;
 }
 
 .contac{
-	background-color: #0B4C5F;
+	background-color: #0B243B;
+	border-top: 3px groove #81F7F3;
 	color: #FFFFFF;
 	height: 130px;
 	display: flex;
@@ -277,6 +290,7 @@ h6{
 }
 .social-link.github{
 	background-image: url("../Mis-imagenes/github.svg");
+	margin-right: 20px;
 }
 
 .form-email input{
@@ -294,6 +308,7 @@ h6{
 .contac-direction{
 	display: flex;
 	align-items: center;
+	margin-left: 20px;
 }
 
 .contac-imageContainer{
@@ -318,11 +333,13 @@ h6{
 }
 
 .footer{
-	background-color: #1C1C1C;
+	background-color: #0B4C5F;
 	color: #FFFFFF;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	margin: 0 60px;
+	height: 70px;
 }
 
 .footer img{
@@ -338,7 +355,7 @@ h6{
 .container{
 	/*border: 1px solid #0A122A; fue de referencia*/
 	width: 1229px;
-	margin: 0 auto; /*centra el elemento*/
+	/*margin: 0 auto; centra el elemento*/
 	display: inherit; /*hereda de su padre*/
 	justify-content: inherit;
 	align-items: inherit;
@@ -358,7 +375,8 @@ h6{
 .container-cursos{
 	/*border: 1px solid #0A122A; fue de referencia*/
 	width: 1229px;
-	margin: 0 auto; /*centra el elemento*/
+	/*margin: 0 auto; centra el elemento*/
+	margin: 0 60px;
 	display: inherit; /*hereda de su padre*/
 	justify-content: inherit;
 	align-items: inherit;
@@ -371,6 +389,28 @@ h6{
 	width: 1000px;
 }
 
+.container-footer{
+	/*border: 1px solid #0A122A; fue de referencia*/
+	width: 315px;
+	/*margin: 0 auto; centra el elemento*/
+	margin: 0 20px;
+	display: inherit; /*hereda de su padre*/
+	justify-content: inherit;
+	align-items: inherit;
+	height: inherit;
+	flex-wrap: inherit;
+}
+
+.footer-telefono{
+	margin-right: 20px;
+}
+
+.footer-imageContainer{
+	margin: 0;
+}
+.certificados{
+	margin: 0 60px;
+}
 
 
 

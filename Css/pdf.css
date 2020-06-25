@@ -1,7 +1,8 @@
 
 
 body{
-	background-color: #F2F2F2;
+	background-color: #D8D8D8;
+	margin: 0px;
 }
 
 
@@ -9,4 +10,18 @@ body{
 .event{
 	display: flex;
 	justify-content: center;
+	background-color: #0B243B;
+    margin: 0 60px;
+    padding: 30px;
+	height: 565px;
+}
+
+.pdf{
+	margin: 0px;
+}
+
+.imagen-pdf{
+	border: 1px solid #81F7F3;
+    border-radius: 3px;
+	object-fit: cover;
 }
