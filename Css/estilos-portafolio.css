@@ -32,7 +32,6 @@ h1 strong{
 	justify-content: space-between;
 	height:70px;
 	align-items: center;
-	width: 1223px;
     margin: 0 60px;
 	border-right: 3px solid #0B4C5F;
 	border-left: 3px solid #0B4C5F;
@@ -281,17 +280,25 @@ h6{
 /*cuando se tiene dos clases se coloca de esta manera*/
 .social-link.twitter{
 	background-image: url("../Mis-imagenes/twitter.svg"); /*svg es un formato que no cambia su resolucion*/
+	margin-right: 5px;
 }
 .social-link.facebook{
 	background-image: url("../Mis-imagenes/facebook.svg");
+	margin-right: 5px;
 }
 .social-link.instagram{
 	background-image: url("../Mis-imagenes/instagram.svg");
+	margin-right: 22px;
 }
 .social-link.github{
 	background-image: url("../Mis-imagenes/github.svg");
-	margin-right: 20px;
+	margin-right: 5px;
 }
+.social-link.linkedin{
+	background-image: url("../Mis-imagenes/in.png");
+	margin-right: 5px;
+}
+
 
 .form-email input{
 	border-color: #D8D8D8;
@@ -354,13 +361,13 @@ h6{
 
 .container{
 	/*border: 1px solid #0A122A; fue de referencia*/
-	width: 1229px;
 	/*margin: 0 auto; centra el elemento*/
 	display: inherit; /*hereda de su padre*/
 	justify-content: inherit;
 	align-items: inherit;
 	height: inherit;
 	flex-wrap: inherit;
+	width: 1500px;
 }
 .container-portafolio{
 	/*border: 1px solid #0A122A; fue de referencia*/
@@ -374,7 +381,6 @@ h6{
 }
 .container-cursos{
 	/*border: 1px solid #0A122A; fue de referencia*/
-	width: 1229px;
 	/*margin: 0 auto; centra el elemento*/
 	margin: 0 60px;
 	display: inherit; /*hereda de su padre*/
@@ -385,9 +391,31 @@ h6{
 	background-color: #0B243B;
 }
 
+.container-certificados{
+	/*border: 1px solid #0A122A; fue de referencia*/
+	/*margin: 0 auto; centra el elemento*/
+	display: inherit; /*hereda de su padre*/
+	justify-content: inherit;
+	align-items: inherit;
+	height: inherit;
+	flex-wrap: inherit;
+}
+
 .p-direccion{
 	width: 1000px;
 }
+
+.container-contacto{
+	/*border: 1px solid #0A122A; fue de referencia*/
+	/*margin: 0 auto; centra el elemento*/
+	display: inherit; /*hereda de su padre*/
+	justify-content: inherit;
+	align-items: inherit;
+	height: inherit;
+	flex-wrap: inherit;
+	width: 1500px;
+}
+
 
 .container-footer{
 	/*border: 1px solid #0A122A; fue de referencia*/
