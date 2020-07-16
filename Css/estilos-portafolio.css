@@ -524,31 +524,77 @@ h6{
 /*********************************************************************************MQ MOVIL*************************************************************/
 @media screen and (max-width:480px){
 	h1{
-		font-size: 1.5em;
-		line-height: 1.3em;
-		margin: 0px;
-		width: 48%;
-		padding: 0 0 0 10px;
+		font-size: 1.3em;
+		line-height: 1em;
+		z-index: 2;
+		width: 95%;
+		text-align: center;
+		position: absolute;
+		bottom: 1px;
+		background-color: #091E314D;
+		margin-left: 7px;
+		padding: 6px 1px;
 	}
-	.hero-image{
-		width: 49%;
-		position: relative;
-	}
-	
 	h2{
 		font-size: 20px;
 		padding: 15px;
 		margin: 0;
+		text-align: center;
+	}
+	
+	h3{
+		margin: 0px;
+	}
+	
+	.hero{
+		border: 0;
+		position: relative;
+	}
+	.hero-image{
+	position: relative;
+    z-index: 1;
+    width: 80%;
+    right: -35px;
+	}
+
+	.portfolio{
+		border-left: 10px solid #5F0B56;
+		border-right: 10px solid #5F0B56;
+	}
+	
+	.container-cursos{
+		border-left: 10px solid #5F0B56;
+		border-right: 10px solid #5F0B56;
 	}
 	
 	.event-list-title{
 		padding: 30px 0 10px 12px;
 	}
-	
 	.event{
 		width: 90%;
+		margin: 3%;
 	}
-	
+	.event-image{
+		height: 160px;
+		position: relative;
+		top: -10px;
+	}
+	.event-details{
+		font-size: 15px;
+		margin: -60px 30px 30px 30px;
+		padding: 10px;
+	}
+	.event-title{
+		font-size: 1.2em;
+	}
+	.event-description{
+		font-size: 0.7em;
+		line-height: 1.5em;
+	}
+	.event-link{
+		font-size: 0.8em;
+	}
+
 	.project-details{
 		font-size: 12px;
 	}
@@ -564,28 +610,49 @@ h6{
 		line-height: 14px;
 	}
 	
-	.event-details{
-		font-size: 15px;
-	}
-	.event-title{
-		font-size: 1.2em;
-	}
-	.event-description{
-		font-size: 0.8em;
-		line-height: 1.5em;
-	}
-	.event-link{
-		font-size: 0.8em;
-	}
-	
 	.contac{
 		height: auto;
 		padding: 20px;
 		justify-content: center;
 		text-align: center;
 	}
+	
+	.container-contacto{
+		padding: 0;
+	}
+	
+	.social-link.twitter{
+	background-image: url("../Mis-imagenes/twitter.svg"); 
+	margin: 0;
+	background-size: 35px;
+	background-repeat: no-repeat;
+	}
+	.social-link.facebook{
+		background-image: url("../Mis-imagenes/facebook.svg");
+		margin: 0;
+		background-size: 33px;
+		background-repeat: no-repeat;
+	}
+	.social-link.instagram{
+		background-image: url("../Mis-imagenes/instagram.svg");
+		margin: 0;
+		background-size: 33px;
+		background-repeat: no-repeat;
+	}
+	.social-link.github{
+		background-image: url("../Mis-imagenes/github.svg");
+		margin: 0;
+		background-size: 35px;
+		background-repeat: no-repeat;
+	}
+	.social-link.linkedin{
+		background-image: url("../Mis-imagenes/in.png");
+		margin: 0 0 0 10px;
+		background-size: 36px;
+		background-repeat: no-repeat;
+	}
 	.direction{
-		margin: 0 0 20px 0;
+		margin: 0 0 30px 0;
 	}
 	
 	.footer{
@@ -601,7 +668,6 @@ h6{
 	.footer-telefono {
     margin: 0 auto;
     text-align: center;
-	
 }
 
 /*********************************************************************************MQ MOVIL PEQUEÑO*************************************************************/
@@ -650,36 +716,6 @@ h6{
 		font-size: 1em;
 	}
 	
-	.social-link.twitter{
-	background-image: url("../Mis-imagenes/twitter.svg"); 
-	margin: 0;
-	background-size: 37px;
-	background-repeat: no-repeat;
-}
-	.social-link.facebook{
-		background-image: url("../Mis-imagenes/facebook.svg");
-		margin: 0;
-		background-size: 35px;
-		background-repeat: no-repeat;
-}
-	.social-link.instagram{
-		background-image: url("../Mis-imagenes/instagram.svg");
-		margin: 0;
-		background-size: 35px;
-		background-repeat: no-repeat;
-}
-	.social-link.github{
-		background-image: url("../Mis-imagenes/github.svg");
-		margin: 0;
-		background-size: 37px;
-		background-repeat: no-repeat;
-}
-	.social-link.linkedin{
-		background-image: url("../Mis-imagenes/in.png");
-		margin: 0 0 0 10px;
-		background-size: 37px;
-		background-repeat: no-repeat;
-		}
 	.social{
 		display: flex;
 	}
