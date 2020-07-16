@@ -1,129 +1,113 @@
 
 body{
+	
 	font-family: Pontano Sans, sans-serif;
-	background-color: #D8D8D8;
+	background-color: #FFFFFF;
 	margin: 0px;
 	line-height: 25px;
 	letter-spacing: 0.9px;
 }
+
 h1{
 	font-family: Anton, sans-serif;
-	font-size: 40px; /*tamaño del texto*/
-	line-height: 50px;/*alto de linea, la separacion entre lineas*/
-	font-weight: 200; /*peso de la fuente, bold es igual a 600, normal igual a 400*/
-	/*font-style: italic; para colocar el texto en cursiva*/
-	letter-spacing: -0.1px; /*espaciado entre los caracteres, espacio entre las letras*/
-	/*text-transform: capitalize; esto es en mayusculas las primeas letras, "uppercase" coloca todo en mayusculas y "lowercase" todo en minuscula*/
-	/*text-decoration: underline; para el subrayado y otras para tachado*/
-	color: #FFFFFF;
-	margin-left: 14px;
-
+	font-size: 40px; 
+	line-height: 55px;
+	font-weight: 200; 
+	letter-spacing: -0.1px; 
+	color: #2D567B;
+	margin-left: 27px;
+	width: 50%;
 }
 
-h1 strong{
-	color: #81F7F3;
-	letter-spacing: 1.5px;/*espaciado entre los caracteres, espacio entre las letras*/
+h1 aqui{
+	color: #FFFFFF;
+	letter-spacing: 1.5px;
+}
+
+.logo{
+	margin: 0 0 0 9px;
+	display: flex;
+}
+
+.menu{
+	height: inherit;
+	justify-content: space-between;
 }
 
 .header{
-	background-color: #0B4C5F;
+	background-color: #5F0B56;
 	color: #FFFFFF;
 	display: flex;
 	justify-content: space-between;
 	height:70px;
 	align-items: center;
-    margin: 0 60px;
-	border-right: 3px solid #0B4C5F;
-	border-left: 3px solid #0B4C5F;
-	border-bottom: 3px groove #81F7F3;
+    margin: 0 auto;
+	flex-wrap: wrap;
+	max-width: 1220px;
 }
-
-.logo{
-	margin: 5px 0 0 3px;
-}
-
-.menu{
-	height: inherit; /*hereda*/
-	justify-content: space-between;
-}
-
 .header ol{
 	display: flex;
 	height: inherit;
-	
 }
-
 .header ol li{
 	height: inherit;
 }
-
 .header a{
 	height: inherit;
-	color: #ffffff;
+	color: #FFFFFF;
 	text-decoration: none;
 	display: flex;
 	align-items: center;
-	padding: 0px 10px; /*el cero es el valor supeior e inferior, 10 de derecha e izquierda*/
+	padding: 0px 10px; 
 }
-
-
 
 ol, ul{
 	margin: 0px;
 	list-style: none;
 	padding: 0px;
 }
-/*tambien se puede colocar de esta manera:
-margin: top right bottom left ---->  margin: 10px 15px 20px 10px;;
-*/
 
 .link{
 	color: #FFFFFF;
 }
 
-/*Asignar dimensiones para el texto y las imagenes*/
 
 .hero{
-	height: 300px; /*altura*/
-	/*background-image: url("../Imagenes/hero.jpg"); /*se coloca dos puntos ".." para salir de la caspeta de css*/
-	/*background-size: 500px 300px; /*ancho por alto*/
-	/*background-repeat: no-repeat; /*para que la imagen no se repita, solo sea una*/
-	/*background-position: right; /*posicionar la imagen a la derecha*/
 	background-color: #0B243B;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin: 0px 60px;
-	
+	margin: 0 auto;
+	flex-wrap: wrap;
+	height: 300px;
+	overflow: hidden; 
+	max-width: 1200px;
+	border-left: 20px solid #5F0B56;
 }
 .hero-image{
-	object-fit: cover; /*ajusta las dimensiones de la imagen para que se vea mejor*/
-	
+	object-fit: cover; 
 }
 
 .portfolio{
 	background-color: #F2F2F2;
-	padding: 20px;
-	margin: 0px 60px 0 60px;
-    border-left: 15px solid #0B243B;
+	padding: 20px 0;
+	flex-wrap: wrap;
+	max-width: 1200px;
+    margin: 0 auto;
+	border-left: 20px solid #5F0B56;
 }
 
 .project-details{
-	width: 600px;
+	width: 54%;
 }
-
-/*.project-details strong{
-	font-family: Gotu, sans-serif;
-	letter-spacing: 0.2px;
-	font-weight: 120;
-	color: #0B4C5F;*/
+.project-imageContainer{
+	width: 45%;
+	margin: 0px;
 }
-
 .project-title{
 	font-size: 25px;
 	margin: 0px;
 }
-
 .project-course{
 	margin: 5px 0px 15px 0px;
 }
@@ -133,37 +117,35 @@ margin: top right bottom left ---->  margin: 10px 15px 20px 10px;;
 .project-url{
 	margin: 0;
 }
-
 .project-description{
 	font-size: 17px;
 }
-
 .project{
 	border: 1px solid #BDBDBD;
-	border-radius: 10px; /*redondear las esquinas*/
-	margin-bottom: 15px;
-	/*margin: 10px; aqui se define que todos los lados tienen el mismo tamaño*/
-	padding: 20px; /*margen interno o relleno*/
+	border-radius: 10px; 
+	margin: 15px;
+	padding: 20px; 
 	background-color: #FFFFFF;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 h2{
 	font-weight: 550;
 	text-transform: uppercase;
-	color: #04B4AE;
-	margin-bottom: 36px;
 	font-family: Anton, sans-serif;
-	font-size: 30px; /*tamaño del texto*/
+	font-size: 30px; 
 	letter-spacing: 0.8px;
+	color: #5F0B56;
+	margin-left: 29px;
 }
 
 h3{
 	font-weight: 600;
 	text-transform: uppercase;
-	color: #0B4C5F;
+	color: #2D567B;
 	margin-bottom: 25px;
 	font-family: Gotu, sans-serif;
 	font-size: 25px;
@@ -183,6 +165,7 @@ h6{
 	flex-wrap: wrap;
 	justify-content: center;
 	background-color: #0B243B;
+	padding: 30px 0;
 }
 
 .event-list-certificados{
@@ -191,53 +174,46 @@ h6{
 	justify-content: center;
 	background-color: #0B243B;
 	padding-bottom: 100px;
+	padding: 30px 0;
 }
 
 .event-list-title{
 	margin: 0px;
 	color: #FFFFFF;
-	background-color: #0B243B;
-	padding: 80px 0 40px 75px;
+	background-color: #5F0B56;
+	padding: 50px 0 20px 30px;
 }
-
 .event{
-	margin: 10px;
-	width: 480px;
-	border: 1px solid #BDBDBD;
-	border-radius: 10px;
-	flex-shrink: 0; /*para mantener el tamaño*/
-	overflow: hidden; /*oculta las esquinas para que se vea el borde*/
-	background-color: #81F7F3;
+	margin: 1%;
+	width: 42%;
+	border: 2px solid #000000A1;
+	border-radius: 8px;
+	flex-shrink: 0; 
+	overflow: hidden; 
+	background-color: #2D567B;
 }
-
 .event-imageContainer{
 	margin: 0px;
 }
-
 .event-image{
-	width: 480px;
+	width: 100%;
 	height: 200px;
-	object-fit: cover; /*ajusta la imagen en el espacio recortando los laterales*/
+	object-fit: cover;
 }
-
 .event-details{
 	margin: 20px 40px;
 	background-color: #FAFAFA;
-	margin-top: -40px; /*para subir el elemento*/
-	position: relative; /*sobre posicion, colocar el elemento por encima del otro*/
+	margin-top: -40px; 
+	position: relative; 
 	padding: 20px;
 	text-align: center;
 	border-radius: 3px;
     border: 1px solid #BDBDBD;
 }
-
 .event-description{
 	text-align: left;
 	
 }
-
-
-
 .event-url{
 	border: 1px solid #0B4C5F;
     border-radius: 5px;
@@ -246,40 +222,39 @@ h6{
     background-color: #04B4AE;
     color: #ffffff;
 }
-
 .event-link{
-	border: 1px solid #0B4C5F;
+	border: 1px solid #000000;
     border-radius: 5px;
     padding: 5px 20px;
     text-decoration: none;
-    background-color: #04B4AE;
+    background-color: #5F0B56;
     color: #ffffff;
 }
 
 .contac{
 	background-color: #0B243B;
-	border-top: 3px groove #81F7F3;
 	color: #FFFFFF;
 	height: 130px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin: 0 60px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	max-width: 1200px;
+    border-left: 20px solid #5F0B56;
+	padding-top: 70px;
 }
 
-
 .social-link{
-	/*border: 1px solid #FFFFFF; era una referencia*/
 	width: 50px;
 	height: 50px;
 	display: inline-block;
-	background-size: 50px 50px; /*tamaño de cada imagen*/
+	background-size: 50px 50px; 
 	margin: 0px 10px;
 }
 
-/*cuando se tiene dos clases se coloca de esta manera*/
 .social-link.twitter{
-	background-image: url("../Mis-imagenes/twitter.svg"); /*svg es un formato que no cambia su resolucion*/
+	background-image: url("../Mis-imagenes/twitter.svg"); 
 	margin-right: 5px;
 }
 .social-link.facebook{
@@ -288,7 +263,7 @@ h6{
 }
 .social-link.instagram{
 	background-image: url("../Mis-imagenes/instagram.svg");
-	margin-right: 22px;
+	margin: 0 0 0 5px;
 }
 .social-link.github{
 	background-image: url("../Mis-imagenes/github.svg");
@@ -296,9 +271,8 @@ h6{
 }
 .social-link.linkedin{
 	background-image: url("../Mis-imagenes/in.png");
-	margin-right: 5px;
+	margin: 0 5px 0 0;
 }
-
 
 .form-email input{
 	border-color: #D8D8D8;
@@ -306,7 +280,7 @@ h6{
 	padding:8px 20px 8px 25px;
 	background-image: url("../Imagenes/envelope.svg");
 	background-size: 20px 20px;
-	background-repeat: no-repeat; /*para que no se repita la imagen*/
+	background-repeat: no-repeat;
 	background-position-y: 6px;
 	background-position-x: 5px;
 	border-radius: 5px;
@@ -320,7 +294,6 @@ h6{
 
 .contac-imageContainer{
 	margin: 0px 10px 0px 0px;
-	
 }
 
 .form-email button{
@@ -332,97 +305,90 @@ h6{
 	padding: 5px 0px;
 	width: 100px;
 	margin-top: 10px;
-	/*margin: 10px auto 0; que tenga un margen de 10 y este centrado en ese espacio*/
 }
 
-.form-email h3{
-	
-}
 
 .footer{
-	background-color: #0B4C5F;
+	background-color: #5F0B56;
 	color: #FFFFFF;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin: 0 60px;
+	margin: 0 auto;
 	height: 70px;
+	padding: 0 20px;
+	max-width: 1160px;
+    border-left: 20px solid #5F0B56;
 }
-
 .footer img{
-	vertical-align: middle; /*estamos centrando verticalmente la imagen del logo*/
+	vertical-align: middle;
 }
-
 .footer a{
 	color: #FFFFFF;
 }
-
-/*estilos y detalles de los contenedores*/
+.footer-imageContainer p{
+	margin: 0px;
+}
 
 .container{
-	/*border: 1px solid #0A122A; fue de referencia*/
-	/*margin: 0 auto; centra el elemento*/
-	display: inherit; /*hereda de su padre*/
+	max-width: 1210px;
+	flex: 1; 
+	margin: 0 auto; 
+	display: inherit; 
 	justify-content: inherit;
 	align-items: inherit;
 	height: inherit;
 	flex-wrap: inherit;
-	width: 1500px;
+	
 }
 .container-portafolio{
-	/*border: 1px solid #0A122A; fue de referencia*/
-	width: 1100px;
-	margin: 0 auto; /*centra el elemento*/
-	display: inherit; /*hereda de su padre*/
+	max-width: 1000px;
+	margin: 0 auto; 
+	display: inherit; 
 	justify-content: inherit;
 	align-items: inherit;
 	height: inherit;
-	flex-wrap: inherit;
+	flex-wrap: wrap;
 }
 .container-cursos{
-	/*border: 1px solid #0A122A; fue de referencia*/
-	/*margin: 0 auto; centra el elemento*/
-	margin: 0 60px;
-	display: inherit; /*hereda de su padre*/
+	margin: 0 auto;
+	display: inherit; 
 	justify-content: inherit;
 	align-items: inherit;
 	height: inherit;
-	flex-wrap: inherit;
+	flex-wrap: wrap;
 	background-color: #0B243B;
+	max-width: 1200px;
+    border-left: 20px solid #5F0B56;
 }
-
 .container-certificados{
-	/*border: 1px solid #0A122A; fue de referencia*/
-	/*margin: 0 auto; centra el elemento*/
-	display: inherit; /*hereda de su padre*/
+	display: inherit; 
 	justify-content: inherit;
 	align-items: inherit;
-	height: inherit;
+	height: wrap;
 	flex-wrap: inherit;
+	max-width: 1200px;
+    border-left: 20px solid #5F0B56;
+	margin: 0 auto;
 }
 
-.p-direccion{
-	width: 1000px;
+.direction{
+	display: flex;
 }
 
 .container-contacto{
-	/*border: 1px solid #0A122A; fue de referencia*/
-	/*margin: 0 auto; centra el elemento*/
-	display: inherit; /*hereda de su padre*/
+	display: inherit; 
 	justify-content: inherit;
 	align-items: inherit;
 	height: inherit;
 	flex-wrap: inherit;
 	width: 1500px;
+	padding: 0 20px;
 }
 
-
 .container-footer{
-	/*border: 1px solid #0A122A; fue de referencia*/
-	width: 315px;
-	/*margin: 0 auto; centra el elemento*/
-	margin: 0 20px;
-	display: inherit; /*hereda de su padre*/
+	
+	display: flex;
 	justify-content: inherit;
 	align-items: inherit;
 	height: inherit;
@@ -430,15 +396,316 @@ h6{
 }
 
 .footer-telefono{
-	margin-right: 20px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-imageContainer{
-	margin: 0;
+	margin: 0 15px 0 0;
 }
 .certificados{
-	margin: 0 60px;
+	margin: 0 auto;
 }
+
+
+/*si se va a usar DESKTOP FIRST es mejor comenzar con los MQ mas grandes*/
+
+/*******************************************************************************MQ ORDENADOR**********************************************************************/
+@media screen and (max-width:1024px){
+	h1{
+		padding: 0 10px;
+		margin: 0px;
+		width: 59%;
+	}
+	.event{
+		width: 43%;
+	}
+}
+
+/*******************************************************************************MQ TABLE*********************************************************************/
+@media screen and (max-width:767px) 
+{
+	h1{
+		font-size: 2em;
+		line-height: 1.2em;
+		width: 54%;
+		margin: 0px;
+		padding: 0 0 0 25px
+	}
+	.hero{
+		position: relative;
+	}
+	.hero-image{
+		width: 40%;
+	}
+	
+	.header{
+		display: block;
+		height: auto;
+	}
+	.header .menu{
+		padding: 20px 0 20px 0;
+	}
+	.header ol{
+		display: initial; /*valor inicial, uno debajo del otro*/
+	}
+	.header ol li{
+		height: 40px;
+	}
+	.header a{
+		justify-content: center;
+	}
+	.header .logo{
+		justify-content: center;
+	}
+	
+	h2{
+		font-size: 25px;
+		margin-left: 34px;
+	}
+	
+	.project{
+	display: block;
+	}
+	.project-imageContainer{
+		width: auto;
+		text-align: center; /*centra la imagen*/
+	}
+	.project-imageContainer img{
+		max-width: 100%; /*se ajusta la imagen al espacio que tiene disponible el contenedor*/
+	}
+	.project-details{
+		width: auto;
+		font-size: 16px;
+	}
+	.project-title{
+		font-size: 1.2em;
+	}
+	.project-url{
+		font-size: 1em;
+	}
+	.project-course{
+		font-size: 1em;
+	}
+	.project-date{
+		font-size: 1em;
+		line-height: 16px;
+	}
+	.project-description{
+		font-size: 0.8em;
+		line-height: 17px;
+	}
+	.project-direction{
+		font-size: 0.8em;
+		line-height: 17px;
+	}
+	
+	.event{
+		width: 80%;
+		flex-shrink: initial; /*tamaño inicial, varia*/
+	}
+	.event-image{
+		width: 100%
+		}
+	.event-details{
+		font-size: 16px;
+	}
+	.event-title{
+		font-size: 1.2em;
+	}
+	.event-description{
+		font-size: 0.8em;
+	}
+	.event-link{
+		font-size: 0.8em;
+	}
+}
+/*********************************************************************************MQ MOVIL*************************************************************/
+@media screen and (max-width:480px){
+	h1{
+		font-size: 1.5em;
+		line-height: 1.3em;
+		margin: 0px;
+		width: 48%;
+		padding: 0 0 0 10px;
+	}
+	.hero-image{
+		width: 49%;
+		position: relative;
+	}
+	
+	h2{
+		font-size: 20px;
+		padding: 15px;
+		margin: 0;
+	}
+	
+	.event-list-title{
+		padding: 30px 0 10px 12px;
+	}
+	
+	.event{
+		width: 90%;
+	}
+	
+	.project-details{
+		font-size: 12px;
+	}
+	.project-title{
+		margin-bottom: 15px;
+	}
+	.project-description{
+		font-size: 0.8em;
+		line-height: 14px;
+	}
+	.project-direction{
+		font-size: 0.8em;
+		line-height: 14px;
+	}
+	
+	.event-details{
+		font-size: 15px;
+	}
+	.event-title{
+		font-size: 1.2em;
+	}
+	.event-description{
+		font-size: 0.8em;
+		line-height: 1.5em;
+	}
+	.event-link{
+		font-size: 0.8em;
+	}
+	
+	.contac{
+		height: auto;
+		padding: 20px;
+		justify-content: center;
+		text-align: center;
+	}
+	.direction{
+		margin: 0 0 20px 0;
+	}
+	
+	.footer{
+		display: block;
+		height: auto;
+		padding: 10px;
+		justify-content: center;
+		text-align: center;
+	}
+	.container-footer{
+		margin: 0 auto;
+	}
+	.footer-telefono {
+    margin: 0 auto;
+    text-align: center;
+	
+}
+
+/*********************************************************************************MQ MOVIL PEQUEÑO*************************************************************/
+@media screen and (max-width:320px){
+	h1{
+		font-size: 1.1em;
+		line-height: 1em;
+		z-index: 2;
+		width: 95%;
+		text-align: center;
+		position: absolute;
+		bottom: 1px;
+		background-color: #091E314D;
+		margin-left: 7px;
+		padding: 6px 1px;
+	}
+	
+	h2{
+		text-align: center;
+	}
+	
+	.hero{
+		position: relative;
+	}
+	.hero-image{
+		position: absolute; 
+		z-index: 1;
+		width: 100%;
+	}
+	
+	.event-details {
+    margin: -100px 15px 15px 15px;
+	padding: 10px;
+	}
+	.event-image{
+		position: relative;
+		top: -30px;
+	}
+	.event{
+		width: 93%;
+	}
+	.event-list-certificados p aqui{
+		font-size: 0.9em;
+	}
+	.event-title{
+		font-size: 1em;
+	}
+	
+	.social-link.twitter{
+	background-image: url("../Mis-imagenes/twitter.svg"); 
+	margin: 0;
+	background-size: 37px;
+	background-repeat: no-repeat;
+}
+	.social-link.facebook{
+		background-image: url("../Mis-imagenes/facebook.svg");
+		margin: 0;
+		background-size: 35px;
+		background-repeat: no-repeat;
+}
+	.social-link.instagram{
+		background-image: url("../Mis-imagenes/instagram.svg");
+		margin: 0;
+		background-size: 35px;
+		background-repeat: no-repeat;
+}
+	.social-link.github{
+		background-image: url("../Mis-imagenes/github.svg");
+		margin: 0;
+		background-size: 37px;
+		background-repeat: no-repeat;
+}
+	.social-link.linkedin{
+		background-image: url("../Mis-imagenes/in.png");
+		margin: 0 0 0 10px;
+		background-size: 37px;
+		background-repeat: no-repeat;
+		}
+	.social{
+		display: flex;
+	}
+	
+	.direction p{
+		font-size: 0.8em;
+		line-height: 19px;
+	}
+	.direction img{
+		width: 30px;
+	}
+	
+	.footer p{
+		font-size: 0.8em;
+		line-height: 19px;
+	}
+	.footer img{
+		width: 27px;
+		height: 26px;
+	}
+	.footer-imageContainer{
+		margin: 0 8px 0 0;
+	}
+}
+
+
 
 
 

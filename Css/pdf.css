@@ -1,7 +1,7 @@
 
 
 body{
-	background-color: #D8D8D8;
+	background-color: #FFFFFF;
 	margin: 0px;
 }
 
@@ -11,17 +11,42 @@ body{
 	display: flex;
 	justify-content: center;
 	background-color: #0B243B;
-    margin: 0 60px;
-    padding: 30px;
-	height: 565px;
+    margin: 0 auto;
+    padding: 18px 0 15px 0;
+	height: auto;
+	border-left: 20px solid #5F0B56;
+	max-width: 1180px;
 }
 
 .pdf{
 	margin: 0px;
 }
 
-.imagen-pdf{
-	border: 1px solid #81F7F3;
-    border-radius: 3px;
-	object-fit: cover;
+.texto{
+	background-color: #5f0b56;
+    max-width: 1200px;
+    margin: 0 auto;
+	display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+h1{
+	font-weight: 550;
+    text-transform: uppercase;
+    font-family: Anton, sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.8px;
+	color: #FFFFFF;
+	padding: 10px 0 8px 20px;
+	margin: 0px;
+}
+
+ p{
+	font-family: Pontano Sans, sans-serif;
+    line-height: 25px;
+    letter-spacing: 0.9px;
+	color: #FFFFFF;
+	padding: 0 15px 0 0;
+	margin: 0px;
 }
